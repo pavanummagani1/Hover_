@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    margin: 50px;
+}
+.button{
+    background-color: rgb(252, 229, 113);
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(252, 229, 113);
+    margin-bottom: 20px;
+}
+img{
+    display: none;
+    margin: auto;
+    transition: all 0.5s;
+    
+}
+.button:hover+img{
+    display: block;
+    width: 800px;
+    height: 400px;
+}
